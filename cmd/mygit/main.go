@@ -5,9 +5,7 @@ import (
 	"os"
 )
 
-// Usage: your_program.sh <command> <arg1> <arg2> ...
 func main() {
-	// You can use print statements as follows for debugging, they'll be visible when running tests.
 	fmt.Fprintf(os.Stderr, "Logs from your program will appear here!\n")
 
 	if len(os.Args) < 2 {
